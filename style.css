@@ -7,5 +7,74 @@
 html,body{
     height: 100%;
     width: 100%;
-    background-color: greenyellow;
+}
+
+#main
+{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+#nav{
+    height: 60px;
+    width: 100%;
+    /* background-color: rgb(48, 218, 18); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     padding:  0 25px;
+    
+}
+
+#nav1{
+    /* background-color: yellow; */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
+.gola{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+   
+}
+
+#nav2{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    gap: 40px;
+}
+
+#nav2 h4{
+    font-size: 15px;
+    font-weight: 600;
+   
+}
+
+#nav2 h4 span{
+    color: rgb(95, 95, 98);
+    margin-left: 15px;
+}
+
+
+#sec-div{
+    /* background-color: red; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+     padding: 0 50px;
+    gap: 85px;
+}
+
+#sec-div h4{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
