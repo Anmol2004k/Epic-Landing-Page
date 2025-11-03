@@ -49,6 +49,8 @@ html,body{
     align-items: center;
     justify-content:  center;
     gap: 40px;
+    cursor: pointer;
+
 }
 
 #nav2 h4{
@@ -71,6 +73,8 @@ html,body{
     align-items: center;
      padding: 0 50px;
     gap: 85px;
+    cursor: pointer;
+
 }
 
 #sec-div h4{
@@ -80,7 +84,7 @@ html,body{
 }
 
 #content{
-    height: calc(100% - 120px);
+    height: 100%;
     width: 100%;
     /* background-color: #579994; */
 }
@@ -120,11 +124,12 @@ html,body{
     font-weight: 300;
 }
 #image-content{
-    height: 60%;
+    height: 100%;
     width: 100%;
     background-color: yellowgreen;
     display: flex;
-    overflow-x: auto;    
+    overflow-x: auto;   
+    margin: 2px; 
 }
 #image-content::-webkit-scrollbar{
      display: none;
@@ -137,5 +142,108 @@ html,body{
     object-fit: cover;
      
 }
+ 
+#footer{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+ #upper-footer{
+    height: 100%;
+    width: 100%;
+    background-color:  rgb(255, 255, 255);
+ }
+  #my-logo {
+  display: flex;
+  flex-direction: column; /* logo ke niche text lane ke liye */
+  align-items: flex-start; /* sab kuch center me */
+  justify-content:  flex-start;
+  gap: 5px;
+  margin: 12px;
+}
+
+/* Gole side by side lane ke liye */
+.gola2-container {
+  display: flex;
+  gap: 5px;
+}
+
+.gola2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgb(0, 0, 0);
+}
+
+/* Text styling */
+#my-logo h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+#brand-name {
+  display: flex;
+ 
+  color: rgb(0, 0, 0);
+ 
+  margin-left: 120px;
+  gap: 40px;
+  
+}
+#brand-name h4 {
+  margin: 12px 0;
+   font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#brand-name h4:hover {
+  text-decoration: underline;
+}
 
 
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.social-links a {
+  color: rgb(0, 0, 0);              /* icon ka color */
+  font-size: 22px;           /* icon size */
+  transition: 0.3s ease;
+  gap: 10px;
+}
+
+.social-links a:hover {
+  color: #8e8e8e;            /* hover color change */
+  transform: scale(1.5);     /* zoom effect */
+}
+
+
+ 
+.about-me {
+  margin-top: 10px;
+  display: flex;
+justify-content: center;
+align-items: center;
+  gap: 10px;
+}
+
+.about-me p {
+  margin: 5px;
+  font-size: 18px;
+  color: #000000;
+  font-family: gilroy, sans-serif;
+}
+
+.about-me p:hover {
+  
+  cursor: pointer;
+  text-decoration: underline; 
+}
